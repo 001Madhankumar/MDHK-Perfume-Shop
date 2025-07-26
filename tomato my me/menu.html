@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tomato - Menu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo"><img src="images/bg removed logo.png" height="40"></div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="restaurants.html">Restaurants</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="categories">
+    <h2>Menu - Spicy Kitchen</h2>
+    <div class="grid">
+      <div class="card" onclick="addToCart('Paneer Butter Masala - ₹180')"><p>🥘 Paneer Butter Masala - ₹180</p></div>
+      <div class="card" onclick="addToCart('Chicken Biryani - ₹220')"><p>🍗 Chicken Biryani - ₹220</p></div>
+      <div class="card" onclick="addToCart('Veg Thali - ₹150')"><p>🥗 Veg Thali - ₹150</p></div>
+      <div class="card" onclick="addToCart('Butter Naan - ₹40')"><p>🍞 Butter Naan - ₹40</p></div>
+    </div>
+  </section>
+
+  <footer><p>© 2025 Tomato. All rights reserved.</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
